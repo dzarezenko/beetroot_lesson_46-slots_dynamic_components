@@ -1,6 +1,6 @@
 <template>
-  <div id="quote">
-    {{ quote }}
+  <div id="quote" v-html="quote">
+    
   </div>
 </template>
 
