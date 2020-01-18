@@ -1,6 +1,6 @@
 <template>
-  <div id="quote" v-html="quote">
-    
+  <div id="quote">
+    <slot />
   </div>
 </template>
 

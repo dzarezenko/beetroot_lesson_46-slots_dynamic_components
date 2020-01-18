@@ -1,7 +1,8 @@
 <template>
   <div id="app">
-    <Quote :quote="quote">
-
+    <Quote>
+      <h1>Some title</h1>
+      <p>Some long text</p>
     </Quote>
   </div>
 </template>
