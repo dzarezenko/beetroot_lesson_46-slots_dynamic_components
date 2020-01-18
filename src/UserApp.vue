@@ -8,7 +8,9 @@
     </p>
     <hr />
 
-    <component :is="currentComponent"></component>
+    <keep-alive>
+      <component :is="currentComponent"></component>
+    </keep-alive>
 
   </div>
 </template>
