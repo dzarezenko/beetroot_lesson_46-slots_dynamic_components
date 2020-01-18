@@ -1,7 +1,9 @@
 <template>
   <div id="quote">
     <header>
-      <slot name="quoteTitle" />
+      <slot name="quoteTitle">
+        <h1>DEFAULT TITLE</h1>
+      </slot>
     </header>
     <hr />
     <main>
