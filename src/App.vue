@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <Quote>
-      <h1>Some title</h1>
-      <p>Some long text</p>
+      <h1 slot="quoteTitle">{{ quoteTitleVal }}</h1>
+      <p slot="quoteText">{{ quoteTextVal }}</p>
     </Quote>
   </div>
 </template>
@@ -13,7 +13,8 @@ import Quote from "@/components/Quote";
 export default {
   data() {
     return {
-      quote: "<h1>Some title</h1><p>Some long text</p>",
+      quoteTitleVal: "Some title",
+      quoteTextVal: "Some long text",
     }
   },
   components: {

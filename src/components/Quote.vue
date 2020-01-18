@@ -1,6 +1,12 @@
 <template>
   <div id="quote">
-    <slot />
+    <header>
+      <slot name="quoteTitle" />
+    </header>
+    <hr />
+    <main>
+      <slot name="quoteText" />
+    </main>
   </div>
 </template>
 
