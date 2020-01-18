@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <Quote>
-      <template v-slot:quoteTitle />
-      <template v-slot:quoteText>
+      <template #quoteTitle>
+        <h1>{{ quoteTitleVal }}</h1>
+      </template>
+      <template #quoteText>
         <p>{{ quoteTextVal }}</p>
       </template>
     </Quote>
