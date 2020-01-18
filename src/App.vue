@@ -1,11 +1,17 @@
 <template>
   <div id="app">
-    
+    <Quote quote="Some message">
+      
+    </Quote>
   </div>
 </template>
 
 <script>
-export default {
+import Quote from "@/components/Quote";
 
+export default {
+  components: {
+    Quote,
+  },
 }
 </script>
